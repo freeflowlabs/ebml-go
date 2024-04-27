@@ -28,7 +28,7 @@ const (
 	// DateEpochInUnixtime is the Unixtime of EBML date epoch.
 	DateEpochInUnixtime = 978307200
 	// SizeUnknown is the longest unknown size value.
-	SizeUnknown = 0xffffffffffffff
+	SizeUnknown = 250 * 1024 * 1024 // 250 MB
 )
 
 // ErrInvalidFloatSize means that a element size is invalid for float type. Float must be 4 or 8 bytes.

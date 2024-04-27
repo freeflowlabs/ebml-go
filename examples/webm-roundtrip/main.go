@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/freeflowlabs/ebml-go"
 	"github.com/freeflowlabs/ebml-go/webm"
 )
 

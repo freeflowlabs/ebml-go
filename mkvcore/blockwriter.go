@@ -16,6 +16,7 @@ package mkvcore
 
 import (
 	"errors"
+	"github.com/freeflowlabs/ebml-go"
 	"io"
 	"sync"
 )

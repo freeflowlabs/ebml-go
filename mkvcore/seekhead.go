@@ -16,6 +16,7 @@ package mkvcore
 
 import (
 	"bytes"
+	"github.com/freeflowlabs/ebml-go"
 )
 
 func setSeekHead(header *flexHeader, opts ...ebml.MarshalOption) error {

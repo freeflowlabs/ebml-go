@@ -18,6 +18,7 @@
 package webm
 
 import (
+	"github.com/freeflowlabs/ebml-go"
 	"time"
 )
 

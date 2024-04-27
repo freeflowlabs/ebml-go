@@ -14,6 +14,8 @@
 
 package mkvcore
 
+import "github.com/freeflowlabs/ebml-go"
+
 type simpleBlockGroup struct {
 	Block             []ebml.Block `ebml:"Block"`
 	ReferencePriority uint64       `ebml:"ReferencePriority"`

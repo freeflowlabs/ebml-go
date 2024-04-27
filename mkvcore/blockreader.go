@@ -15,6 +15,7 @@
 package mkvcore
 
 import (
+	"github.com/freeflowlabs/ebml-go"
 	"io"
 )
 

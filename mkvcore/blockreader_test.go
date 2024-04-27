@@ -23,9 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/at-wat/ebml-go"
-	"github.com/at-wat/ebml-go/internal/buffercloser"
-	"github.com/at-wat/ebml-go/internal/errs"
+	"github.com/freeflowlabs/ebml-go/internal/buffercloser"
+	"github.com/freeflowlabs/ebml-go/internal/errs"
 )
 
 func TestBlockReader(t *testing.T) {

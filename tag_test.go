@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/at-wat/ebml-go/internal/errs"
+	"github.com/freeflowlabs/ebml-go/internal/errs"
 )
 
 func TestParseTag(t *testing.T) {

@@ -14,10 +14,6 @@
 
 package mkvcore
 
-import (
-	"github.com/at-wat/ebml-go"
-)
-
 type simpleBlockGroup struct {
 	Block             []ebml.Block `ebml:"Block"`
 	ReferencePriority uint64       `ebml:"ReferencePriority"`

@@ -52,8 +52,11 @@ func (r *rollbackReaderImpl) Reset() {
 
 func (r *rollbackReaderImpl) RollbackTo(i int) {
 	buf := r.buf
+	if len(buf) > 0 {
+		buf = buf[i:]
+	}
 	r.Reader = io.MultiReader(
-		bytes.NewReader(buf[i:]),
+		bytes.NewReader(buf),
 		r.Reader,
 	)
 	r.buf = nil
